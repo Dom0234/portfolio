@@ -1,0 +1,44 @@
+*{
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    padding: .5%;
+}
+
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    padding: 2%;
+    color: aquamarine;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: aqua;
+    text-align: center;
+}
+p{
+    margin-left: 100%;
+
+    
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px outset #ccc;
+    padding: 5px 8px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 45%;
+    color: #fff;
+}
+
+.audio{
+    margin-top: 5%;
+}
+
+.box{
+    padding: 50px;
+}

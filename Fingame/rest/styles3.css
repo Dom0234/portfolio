@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(https://www.brownsville-pub.com/wp-content/uploads/2019/08/projects.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#game::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    opacity: .4;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    position:relative;
+    top: 150px;
+    background-image: url(https://opengameart.org/sites/default/files/1ST%20FRAME_3.PNG);
+    background-size: cover;
+    background-position: center;
+}
+#character img{
+    object-fit: contain;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+    background-image: url(https://i.pinimg.com/originals/1a/8b/73/1a8b73ba3122baf3f1651ab6d03f0fcf.png);
+    background-size: cover;
+    background-position: center;
+    filter: saturate(5);
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
